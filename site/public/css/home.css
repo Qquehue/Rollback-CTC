@@ -56,15 +56,9 @@
     }
 }
 
-/* Tablet */
-
-@media screen and (max-width:820px){
-
-}
-
 /* Computador */
 
-@media screen and (min-width: 821px){
+@media screen and (min-width: 500px){
 
 .texto_sobre{
     margin: 30vh 0% 0% 5vw;
@@ -124,8 +118,8 @@
     margin: 5vw;
 }
 .img_diagrama{
-    margin-top: 2vw;
-    height: 90vh;
+    margin-top: 0vw;
+    height: 100vh;
     background-image: url(img/diagrama.png);
     background-size: cover;
 }

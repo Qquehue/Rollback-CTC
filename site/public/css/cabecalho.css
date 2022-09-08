@@ -50,15 +50,9 @@
     }
 }
 
-/* Tablet */
-
-@media screen and (max-width:820px){
-
-}
-
 /* Computador */
 
-@media screen and (min-width: 821px){
+@media screen and (min-width: 500px){
 .cabecalho{
     top:0;
     left: 0;
@@ -95,15 +89,16 @@ a {
     border-radius: 10vw;
     background-color: var(--preto2);
     color: var(--branco);
-    font-size: 1.5vw;
-    font-weight: bold;
-    border-color: var(--preto);
+    font-size: 1.4vw;
+    border-color: transparent;
     font-family: var(--letra);
     text-align: center;
+    transition: 0.3s;
 }
 .btn_cabecalho:hover{
-    background-color: var(--branco);
-    color: var(--preto2);
+    font-size: 1.5vw;
+    background-color: var(--preto2);
+    color: var(--branco);
     cursor: pointer;
 }
 

@@ -5,55 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="icon" href="css/img/logo2.png">
+    <link rel="icon" href="css/img/icon.png">
     <link rel="stylesheet" href="css/body.css">
-    <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/rodape.css">
+    <!-- <link rel="stylesheet" href="css/cabecalho.css"> -->
+    <!-- <link rel="stylesheet" href="css/rodape.css"> -->
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/root.css">
 </head>
 <body>
 
-<!-- Início Cabeçalho -->
-
-    <div class="cabecalho">
-        <div class="container_cabecalho">
-            <a href="home.html"><img src="css/img/logo.png" alt="Logo do Site" class="logo_cabecalho"></a>
-                <ul class="itens_cabecalho">
-                    <li> <a href="home.html">Home</a></li>
-                    <li> <a href="sobre.html">Sobre</a></li>
-                    <li>|</li>
-                    <li> <a href="cadastro.html">Cadastro</a></li>
-                    <li> <a href="login.html">Login</a></li>                
-                </ul>
-        </div>
-    </div>
-
-<!-- Fim Cabeçalho -->
-
-<!-- --------------------------------------------------------------------------------------------------------- -->
+<!------------------------------------------------------------------------------------------------------------->
 
 <!-- Início Login Card -->
-
+<div class="div_login">
     <div class="login_card">
+        <div class="home">
+            <a href="home.html"><h2>🠔 Home</h2></a>
+            <img src="css/img/logo azul escuro.png" alt="Logo CTC">
+        </div>
         <div class="container_cardLogin">
-            <h1 class="titulo_card">Efetue login!</h1>
-            <p class="texto_card">Informe seu email:</p>
-            <input type="text" class="ipt_login" placeholder="Email" id="ipt_email">
-            <p class="texto_card">Informe sua senha:</p>
+            <h2>Login</h2>
+            <input type="text" class="ipt_login" placeholder="E-mail" id="ipt_email">
             <input type="password" class="ipt_login" placeholder="Senha" id="ipt_senha">
             <button onclick="logar()" class="btn_logar">Logar</button>
             <div id="validar"></div>
+            <p class="texto_card">Você não possui uma conta? <a href="cadastro.html" class="texto_card"><b><u>Cadastre-se</u></b></a></p>
         </div>
     </div>
 
 <!-- Fim Login Card -->
 
-<!-- --------------------------------------------------------------------------------------------------------- -->
+<!------------------------------------------------------------------------------------------------------------->
+
+<!-- Início da Imagem Login -->
+
+    <div class="imagem_login">
+        <img src="css/img/imagem login.jpg" alt="Imagem Login">
+        <!-- <label><img src="css/img/logo branco.png" alt="Logo CTC"></label> -->
+    </div>
+</div>
+<!-- Fim da Imagem Login -->
+
+<!------------------------------------------------------------------------------------------------------------->
     
 <!--Inicio rodapé -->
 
-    <div class="rodape">
+    <!-- <div class="rodape">
         <img class="logo_rodape" src="css/img/logo.png" alt="">
         <div class="texto_rodape_index">
             <p class="texto_rodape">
